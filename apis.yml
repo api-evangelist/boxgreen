@@ -1,7 +1,29 @@
 aid: boxgreen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/boxgreen.png
 name: BoxGreen
-description: BoxGreen is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BoxGreen (BoxGreen Pte. Ltd., incorporated 2014 in Singapore) is a Certified B
+  Corporation and social enterprise selling all-natural, individually packaged
+  healthy snacks direct to consumers and to businesses. Its consumer offering is a
+  Shopify-based e-commerce store with build-your-own snack boxes, curated
+  collections (nut mixes, crunchies, vegan and gluten-free ranges), gift and party
+  packs, and a subscription delivery model; its B2B side covers corporate gifting,
+  office pantry supply, and cashless healthy-snack vending machines. Every BoxGreen
+  snack is packed in prison by beneficiaries of Singapore's Yellow Ribbon Project to
+  build skills and employability. Surfaced as a 500 Global portfolio company, BoxGreen
+  publishes no first-party API or developer program; the only machine-readable surface
+  on its domain is Shopify's New Customer Accounts OIDC/OAuth discovery.
 url: https://raw.githubusercontent.com/api-evangelist/boxgreen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthy Snacks
+- E-Commerce
+- Consumer Packaged Goods
+- Subscription
+- Corporate Gifting
+- Social Enterprise
+- B Corporation
+- Food and Beverage
+- Singapore
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://boxgreen.co
+  url: https://www.boxgreen.co
+- type: Blog
+  url: https://www.boxgreen.co/blogs/the-pantry
+- type: Support
+  url: https://www.boxgreen.co/pages/faq
+- type: SignUp
+  url: https://www.boxgreen.co/account/login
+- type: TermsOfService
+  url: https://www.boxgreen.co/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.boxgreen.co/pages/privacy-policy
+- type: WellKnown
+  url: well-known/boxgreen-well-known.yml
+- type: DomainSecurity
+  url: security/boxgreen-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

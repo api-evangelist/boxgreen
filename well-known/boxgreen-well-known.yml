@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.boxgreen.co/.well-known/
+host: https://www.boxgreen.co
+note: >-
+  BoxGreen runs on Shopify. The OIDC/OAuth discovery documents below are Shopify's
+  New Customer Accounts authentication surface exposed on the store domain (issuer
+  https://shopify.com/authentication/32515981356), not a first-party BoxGreen API.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: boxgreen-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: boxgreen-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
