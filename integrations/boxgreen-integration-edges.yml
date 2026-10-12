@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/boxgreen/integrations
+- https://n8n.io/integrations/boxgreen/
+- https://composio.dev/toolkits/boxgreen
+- https://monid.ai/tools/boxgreen
+checked:
+- https://composio.dev/toolkits/boxgreen
+- https://monid.ai/tools/boxgreen
+- https://n8n.io/integrations/boxgreen/
+- https://zapier.com/apps/boxgreen/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
